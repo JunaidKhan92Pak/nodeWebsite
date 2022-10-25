@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+  <title>Weather Website</title>
+</head>
+
+<body>
+  {{>navbar}}
+
+  <div class="tempMain">
+    <div class="weather">
+      <h1>Weather Forcasting</h1>
+    <div class="tempInput">
+      <input type="text" id="Input_temp" placeholder="Enter Your City" autocomplete="off">
+      <input type="submit" value="Search" id="Submit_btn">
+    </div>
+    </div>
+    <div class="tempdata">
+      <div class="cityInfo">
+        <p id="City_output">Get output Here</p>
+      </div>
+      <div class="tempInfo">
+        <div class="TempImg"> 
+        </div>
+        <div class="TempStatus">
+          <p id="tempStatus">Tempature Status</p>
+        </div>
+        <div class="cityDetail">
+          <p><span id="city_temp">0</span><sup>o</sup>C</p>
+        </div>
+      </div>
+      <div class="dateInfo">
+        <p id="date_time"></p>
+      </div>
+    </div>
+  </div>
+  {{>footer}}
+  <script src="js/main.js"></script>
+</body>
+
+</html>

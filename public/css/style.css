@@ -1,0 +1,1027 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Cinzel', serif;
+}
+
+.navBar {
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+    height: 1.6rem;
+    display: flex;
+}
+
+.logo a {
+    width: 10%;
+    height: 1.6rem;
+    display: flex;
+}
+
+.link {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+li {
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.btn button {
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 24px;
+    background-color: black;
+    font-size: 0.7rem;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    font-family: 'Cinzel', serif;
+}
+
+.main {
+    padding: 0rem 2rem;
+}
+
+.container {
+    width: 100%;
+    height: 90vh;
+    padding: 10px;
+    background-image: url(/img/main.svg);
+    box-sizing: border-box;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+.container h1 {
+    font-size: 3.4rem;
+    color: white;
+    text-align: center;
+}
+
+.container button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    border: none;
+    letter-spacing: 0.1rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+}
+
+.container p {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    width: 100%;
+    height: fit-content;
+    padding: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.4rem;
+    border: 0 0 0 2px solid black;
+}
+
+.contentHead {
+    color: black;
+
+}
+
+.contentText {
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.textbox {
+    width: 40%;
+    height: fit-content;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.boxImg {
+    width: 50%;
+    height: 400px;
+    padding: 1.5rem;
+    background-image: url(/img/box.svg);
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+
+.titel2 {
+    font-size: 1.6rem;
+    letter-spacing: 0.09rem;
+}
+
+.para {
+    font-size: 1rem;
+}
+
+.boxBtn button {
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 24px;
+    background-color: black;
+    font-size: 0.9rem;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    font-family: 'Cinzel', serif;
+}
+
+.blog {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+
+}
+
+.blogHeag {
+    text-align: center;
+    width: 100%;
+    padding: 2rem 0rem;
+}
+
+.blogHeag h1 {
+    padding: 0.7rem 0rem;
+}
+
+.blogBox {
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+.box1 {
+    width: 30%;
+    height: fit-content;
+    padding: 0.5rem;
+}
+
+.box1 h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    padding: 0.7rem 0rem;
+}
+
+.box1 p {
+    font-size: 0.9rem;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    padding: 0rem 0rem 0.5rem 0rem;
+}
+
+.box1 h4 {
+    font-size: 1rem;
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+}
+
+.contactMain {
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.contactBox {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(223, 223, 223);
+    padding: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.contactBox button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    border: none;
+    letter-spacing: 0.2rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+}
+
+.contactBox h1 {
+    font-size: 2.7rem;
+    letter-spacing: 0.2rem;
+}
+
+.contactBox p {
+    font-size: rem;
+    letter-spacing: 0.2rem;
+}
+
+.footer {
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    background-color: rgb(109, 109, 109);
+    text-align: center;
+    color: black;
+}
+
+.aboutMain {
+    width: 100%;
+    height: 500px;
+    padding: 0rem 2rem;
+    display: flex;
+}
+
+.aboutImg {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/About.svg);
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutImg h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.aboutContent {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: 1rem;
+}
+
+.Text {
+    width: 100%;
+    height: fit-content;
+    padding: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.Text p {
+    font-size: 2.4rem;
+}
+
+.aboutPara {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    border-bottom: 1px solid black;
+}
+
+.paraText {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 2.5rem;
+    text-align: center;
+}
+
+.paraText {
+    font-size: 1rem;
+}
+
+.Servicebox {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.boxText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.boxContainer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.boxes {
+    width: 30%;
+    height: fit-content;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.boxesImg {
+    width: 20%;
+    height: 3.2rem;
+    display: flex;
+}
+
+.boxesTitel {
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+
+.boxesPara {
+    font-size: 0.9rem;
+}
+
+.contactMain {
+    width: 100%;
+    height: 500px;
+    padding: 0rem 2rem;
+    display: flex;
+}
+
+.contactImg {
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/Contact.svg);
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactImg h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.infoMain {
+    width: 100%;
+    height: fit-content;
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.info {
+    width: 70%;
+    height: fit-content;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    gap: 1rem;
+}
+
+.infoPara p {
+    font-size: 1rem;
+}
+
+input {
+    width: 100%;
+    height: 50px;
+}
+
+.input {
+    padding-top: 20px;
+}
+
+.cbtn {
+    padding-top: 20px;
+}
+
+.info button {
+    width: 100%;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    border: none;
+    letter-spacing: 0.2rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+}
+
+.contactInfo {
+    width: 30%;
+    height: fit-content;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.address {
+    padding-top: 20px;
+}
+
+.Servicebox {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.boxText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.boxContainer1 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.boxes1 {
+    width: 30%;
+    height: fit-content;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.boxesImg1 {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+}
+
+#img3 {
+    background-image: url(/img/Awais.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#img2 {
+    background-image: url(/img/REHEN.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#img1 {
+    background-image: url(/img/junaid.jpg);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.boxesTitel1 {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+
+.boxesPara1 {
+    text-align: center;
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.boxesParaInfo {
+    text-align: center;
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+}
+
+.tempMain {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.weather {
+    width: 100%;
+    height: 350px;
+    background-image: url(/img/SmokyBg.jpg);
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.weather h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.tempInput {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 1.4rem;
+    gap: 1rem;
+}
+
+#Input_temp {
+    width: 30%;
+    background-color: rgb(214, 214, 214);
+    opacity: 60%;
+    border: none;
+    font-size: 1.2rem;
+    padding-left: 0.7rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#Submit_btn {
+    width: 10%;
+    padding: 8px;
+    font-size: 1.6rem;
+    opacity: 90%;
+    font-weight: bold;
+    height: fit-content;
+    border: none;
+    color: white;
+    background-color: rgb(255, 208, 80);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.tempdata {
+    width: 40%;
+    height: fit-content;
+    background-color: rgb(85, 156, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cityInfo {
+    width: 100%;
+    height: fit-content;
+    box-shadow: #00000087 0px 5px 10px -5px, rgb(0 0 0 / 42%) 0px 8px 16px -8px;
+    padding-top: 1.3rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.cityInfo p {
+    color: white;
+    font-size: 1.4rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.tempInfo {
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.cityDetail {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.TempImg {
+    width: 100%;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.TempStatus {
+    width: 100%;
+    font-size: 2.1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.dateInfo {
+    width: 100%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    box-shadow: #00000087 0px 5px 10px -5px, rgb(0 0 0 / 42%) 0px 8px 16px -8px;
+}
+
+
+/* For Differnt Screen */
+@media screen and (max-width: 920px ) {
+    .navBar {
+        padding: 40px 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: 10%;
+        height: 1rem;
+        display: flex;
+    }
+    
+    .logo a {
+        width: 10%;
+        height: 1rem;
+        display: flex;
+    }
+    
+    .links {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
+    
+    li {
+        font-weight: lighter;
+        font-size: 1rem;
+    }
+    .btn button {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+        line-height: 15px;
+        letter-spacing: 1px;
+    }
+
+.container h1 {
+    font-size: 2.4rem;
+}
+
+.container button {
+    padding: 0.7rem 1.3rem;
+    font-size: 0.7rem;
+}
+
+.container p {
+    font-size: 0.8rem;
+}
+
+.contentText {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+}
+
+.textbox {
+    padding: 1.5rem;
+    gap: 1rem;
+}
+
+.boxImg {
+    width: 50%;
+    height: 300px;
+    padding: 1rem;
+}
+
+.titel2 {
+    font-size: 1.3rem;
+}
+
+.para {
+    font-size: 0.8rem;
+}
+
+.boxBtn button {
+    padding: 10px 20px;
+    font-size: 0.7rem;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+}
+
+
+.box1 h3 {
+    font-size: 1.2rem;
+}
+
+.box1 p {
+    font-size: 0.7rem;
+}
+
+.box1 h4 {
+    font-size: 0.8rem;
+}
+
+.contactMain {
+    width: 100%;
+    height: fit-content;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.contactBox {
+    padding: 8rem;
+    gap: 1.5rem;
+}
+
+.contactBox button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.contactBox h1 {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.contactBox p {
+    font-size: 0.7rem;
+    letter-spacing: 0.2rem;
+}
+#contactBtn{
+    padding: 8px 12px;
+    font-size: 0.8rem;
+    line-height: 15px;
+    letter-spacing: 1px;  
+}
+
+.aboutImg h1 {
+    font-size: 2.5rem;
+}
+
+.Text p {
+    font-size: 2rem;
+}
+
+.paraText {
+    font-size: 0.8rem;
+}
+
+.boxesImg {
+    height: 2.5rem;
+}
+
+.boxesTitel {
+    font-size: 0.5rem;
+}
+
+.boxesPara {
+    font-size: 0.7rem;
+}
+
+.contactMain {
+    width: 100%;
+    height: 500px;
+    padding: 0rem 2rem;
+    display: flex;
+}
+
+.contactImg h1 {
+    font-size: 2.5rem;
+}
+
+.infoPara p {
+    font-size: 0.8rem;
+}
+
+.boxesTitel1 {
+    font-size: 0.4rem;
+}
+
+.boxesPara1 {
+    font-size: 0.7rem;
+}
+
+.boxesParaInfo {
+    font-size: 0.7rem;
+}
+
+.tempMain {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.weather {
+    width: 100%;
+    height: 350px;
+    background-image: url(/img/SmokyBg.jpg);
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.weather h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.tempInput {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 1.4rem;
+    gap: 1rem;
+}
+
+#Input_temp {
+    width: 30%;
+    background-color: rgb(214, 214, 214);
+    opacity: 60%;
+    border: none;
+    font-size: 1.2rem;
+    padding-left: 0.7rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#Submit_btn {
+    width: 10%;
+    padding: 8px;
+    font-size: 1.6rem;
+    opacity: 90%;
+    font-weight: bold;
+    height: fit-content;
+    border: none;
+    color: white;
+    background-color: rgb(255, 208, 80);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.tempdata {
+    width: 40%;
+    height: fit-content;
+    background-color: rgb(85, 156, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cityInfo {
+    padding-top: 1.3rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.tempInfo {
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.cityDetail {
+    width: 100%;
+    font-size: 2.2rem;
+}
+
+.TempImg {
+    width: 100%;
+    height: 100px;
+}
+
+.TempStatus {
+    width: 100%;
+    font-size: 2.1rem;
+}
+
+.dateInfo {
+    width: 100%;
+    height: 50px;
+}
+
+}
